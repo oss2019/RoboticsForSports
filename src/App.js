@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Timeline from "./Components/Timeline";
 import Team from "./Components/Team";
+// import CountDow from "./Components/CountDow";
 
 class App extends Component {
   constructor(props) {
@@ -43,12 +44,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Team />
-        <Header data={this.state.resumeData.main} />
         
+        <Header data={this.state.resumeData.main} />
+        {/* <CountDow /> */}
         <About data={this.state.resumeData.main} /> 
         <Timeline data={this.state.resumeData.main}/>
-        
+        <Team data={this.state.resumeData.main}/>
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
