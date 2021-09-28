@@ -1,153 +1,38 @@
 import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import {FiPhoneCall} from 'react-icons/fi';
+import {HiOutlineMail} from 'react-icons/hi';
+import {GoLocation} from 'react-icons/go';
 
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
-
     return (
-      <section id="contact">
-        <Fade bottom duration={1000}>
-          <div className="row section-head">
-            <div className="two columns header-col">
-              <h1>
-                <span>Get In Touch.</span>
-              </h1>
-            </div>
-
-            <div className="ten columns">
-              <p className="lead">{message}</p>
-            </div>
+      <section id="contact" style={{paddingLeft: '60px', paddingRight: '60px', color: 'white',paddingTop: '80px'}}>
+      <div style={{ textAlign : 'center', color: '#fff', fontSize : '32px', marginBottom: '40px'}}>CONTACT</div>
+        <div style = {{display : 'flex', justifyContent : 'space-around', margin :'auto'}}>
+          <div style={{display: 'flex', flexDirection: 'column'}} className='feature col-lg-3'>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+           <FiPhoneCall style = {{fontSize: '18px'}}/> <span style={{marginLeft : '10px', fontSize : '20px', 
+           color: 'silver'}}>Phone</span>
+           </div>
+           +91 78921 28329
           </div>
-        </Fade>
-
-        <div className="row">
-          <Slide left duration={1000}>
-            <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
-                <fieldset>
-                  <div>
-                    <label htmlFor="contactName">
-                      Name <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactName"
-                      name="contactName"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactEmail"
-                      name="contactEmail"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactSubject">Subject</label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactSubject"
-                      name="contactSubject"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
-                    </label>
-                    <textarea
-                      cols="50"
-                      rows="15"
-                      id="contactMessage"
-                      name="contactMessage"
-                    ></textarea>
-                  </div>
-
-                  <div>
-                    <button className="submit">Submit</button>
-                    <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
-                  </div>
-                </fieldset>
-              </form>
-
-              <div id="message-warning"> Error boy</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
-                <br />
-              </div>
+          <div style={{display: 'flex', flexDirection: 'column'}} className='feature col-lg-3'>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+            <HiOutlineMail style = {{fontSize: '18px'}}/> <span style={{marginLeft : '10px', fontSize : '20px', 
+            color: 'silver'}}>Email</span>
             </div>
-          </Slide>
-
-          <Slide right duration={1000}>
-            <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
-                <p className="address">
-                  {name}
-                  <br />
-                  {street} <br />
-                  {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
-                </p>
-              </div>
-
-              <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">2 Days Ago</a>
-                    </b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">3 Days Ago</a>
-                    </b>
-                  </li>
-                </ul>
-              </div>
-            </aside>
-          </Slide>
-        </div>
+            gstech@iitdh.ac.in
+          </div>
+          <div style={{display: 'flex', flexDirection: 'column'}} className='feature col-lg-3'>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+            <GoLocation style = {{fontSize: '18px'}}/> <span style={{marginLeft : '10px', fontSize : '20px', 
+            color: 'silver'}}>Location</span>
+            </div>
+            Indian Institute of Technology,<br/> Dharwad, Karnataka 580011
+          </div>
+           
+        </div> 
       </section>
     );
   }

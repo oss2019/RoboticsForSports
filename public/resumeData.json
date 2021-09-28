@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Sporotech 2021",
-    "description":"about",
+    "description":"This Robotics contest as the name suggests, “Sporotech”, intrigues participants to ideate and implement two practical models using Solidworks or Fusion360. One is allowed to register for any number of problem statements, preferably in a team of 3-5 members. This event begins from 1st October and submission deadline for both the problems is 23rd October. Registrants are expected to come up with their cost-effective models according to the constraints  given  in the problem statement. Exciting prizes await the (participants) and winners!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -19,7 +19,8 @@
       {
         "name":"facebook",
         "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "className":"fa fa-facebook",
+        "logos" : "../FooterImages/IITDh.jpeg"
       },
       {
         "name":"twitter",
