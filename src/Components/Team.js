@@ -7,7 +7,7 @@ class Team extends Component {
   render() {
     if (!this.props.data) return null;
     return (
-      <section id="team" style={{paddingLeft: '60px', paddingRight: '60px', color: 'white',paddingTop: '40px'}}>
+      <section id="team" style={{paddingLeft: '60px', paddingRight: '60px', color: 'white',padding: '5rem 0'}}>
       <div style={{ textAlign : 'center', color: '#fff', fontSize : '32px', marginBottom: '40px'}}>TEAM</div>
       <div style={{display: 'flex', justifyContent : 'space-evenly'}}>
         {    teamMembers.map(data => (

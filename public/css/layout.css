@@ -63,10 +63,11 @@ header .banner-text h1 {
    margin-top: 20px;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font-size: 17px;
    color: #ddd;
-   margin: 0 auto;
-   width: 70%;
+   margin: auto;
+   font-weight: 300;
+   padding: 1rem;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -175,7 +176,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+/* ul#nav li.current a { color: #fe6928; } */
 
 
 /* ------------------------------------------------------------------ */
@@ -1024,4 +1025,8 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+#team{
+   background: #000524;
+   padding: 2rem 0;
 }
