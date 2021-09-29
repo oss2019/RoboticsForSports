@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/RoboticsForSports/static/css/main.bab0b925.chunk.css",
+    "main.js": "/RoboticsForSports/static/js/main.d97ddfb6.chunk.js",
+    "main.js.map": "/RoboticsForSports/static/js/main.d97ddfb6.chunk.js.map",
+    "runtime-main.js": "/RoboticsForSports/static/js/runtime-main.e1c72e6c.js",
+    "runtime-main.js.map": "/RoboticsForSports/static/js/runtime-main.e1c72e6c.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/RoboticsForSports/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.5d5d45fb.chunk.js": "/RoboticsForSports/static/js/2.5d5d45fb.chunk.js",
+    "static/js/2.5d5d45fb.chunk.js.map": "/RoboticsForSports/static/js/2.5d5d45fb.chunk.js.map",
+    "static/js/3.37192441.chunk.js": "/RoboticsForSports/static/js/3.37192441.chunk.js",
+    "static/js/3.37192441.chunk.js.map": "/RoboticsForSports/static/js/3.37192441.chunk.js.map",
+    "index.html": "/RoboticsForSports/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/RoboticsForSports/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.bab0b925.chunk.css.map": "/RoboticsForSports/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.5d5d45fb.chunk.js.LICENSE.txt": "/RoboticsForSports/static/js/2.5d5d45fb.chunk.js.LICENSE.txt",
+    "static/media/Aasim.a51b1511.jpeg": "/RoboticsForSports/static/media/Aasim.a51b1511.jpeg",
+    "static/media/Atul.8925afca.jpeg": "/RoboticsForSports/static/media/Atul.8925afca.jpeg",
+    "static/media/Harrithha1.7f5519d5.png": "/RoboticsForSports/static/media/Harrithha1.7f5519d5.png",
+    "static/media/IITDh.5e4397d4.jpeg": "/RoboticsForSports/static/media/IITDh.5e4397d4.jpeg",
+    "static/media/RoboticsClub.522c1617.jpeg": "/RoboticsForSports/static/media/RoboticsClub.522c1617.jpeg",
+    "static/media/Saloni.aa65e9fb.jpeg": "/RoboticsForSports/static/media/Saloni.aa65e9fb.jpeg",
+    "static/media/Samriddha.66722049.jpeg": "/RoboticsForSports/static/media/Samriddha.66722049.jpeg",
+    "static/media/Sohan.03f97c86.jpeg": "/RoboticsForSports/static/media/Sohan.03f97c86.jpeg",
+    "static/media/Tabish.b3cec959.jpeg": "/RoboticsForSports/static/media/Tabish.b3cec959.jpeg",
+    "static/media/TechCouncil.493cf607.jpeg": "/RoboticsForSports/static/media/TechCouncil.493cf607.jpeg",
+    "static/media/Yogesh.7fddbe3a.jpeg": "/RoboticsForSports/static/media/Yogesh.7fddbe3a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1c72e6c.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.5d5d45fb.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.d97ddfb6.chunk.js"
+  ]
+}
