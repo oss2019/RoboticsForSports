@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {teamMembers1, teamMembers2} from '../TeamImages/memberDetails.js';
-import avatar from '../TeamImages/avatar.jpg';
+// import avatar from '../TeamImages/avatar.jpg';
 import {data} from '../TeamImages/memberDetails.js';
 
 class Team extends Component {
