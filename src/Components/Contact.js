@@ -8,7 +8,7 @@ class Contact extends Component {
     if (!this.props.data) return null;
     return (
       <section id="contact" style={{paddingLeft: '60px', paddingRight: '60px', color: 'white',paddingTop: '80px'}}>
-      <div style={{ textAlign : 'center', color: '#fff', fontSize : '32px', marginBottom: '40px'}}>CONTACT</div>
+      <div style={{ textAlign : 'center', fontSize : '32px', marginBottom: '40px'}}>CONTACT</div>
         <div style = {{display : 'flex', justifyContent : 'space-around', margin :'auto'}}>
           <div style={{display: 'flex', flexDirection: 'column'}} className='feature col-lg-3'>
             <div style={{display: 'flex', justifyContent: 'center'}}>

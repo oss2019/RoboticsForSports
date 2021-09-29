@@ -62,7 +62,12 @@ class Header extends Component {
               <h1 className="responsive-headline" style={{marginTop : '20px'}}>{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>This Robotics contest as the name suggests, “Sporotech”, intrigues participants to ideate 
+                and implement two practical models using Solidworks or Fusion360. One is allowed to register 
+                for any number of problem statements, preferably in a team of 3-5 members. This event begins 
+                from 1st October and submission deadline for both the problems is 23rd October. Registrants are 
+                expected to come up with their cost-effective models according to the constraints  given  in 
+                the problem statement. Exciting prizes await the (participants) and winners!</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
