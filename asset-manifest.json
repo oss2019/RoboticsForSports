@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RoboticsForSports/static/css/main.bab0b925.chunk.css",
-    "main.js": "/RoboticsForSports/static/js/main.073238d1.chunk.js",
-    "main.js.map": "/RoboticsForSports/static/js/main.073238d1.chunk.js.map",
+    "main.js": "/RoboticsForSports/static/js/main.da472816.chunk.js",
+    "main.js.map": "/RoboticsForSports/static/js/main.da472816.chunk.js.map",
     "runtime-main.js": "/RoboticsForSports/static/js/runtime-main.6f249424.js",
     "runtime-main.js.map": "/RoboticsForSports/static/js/runtime-main.6f249424.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/RoboticsForSports/static/css/2.2aa38b9c.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.2aa38b9c.chunk.css",
     "static/js/2.ef9cb1fa.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.073238d1.chunk.js"
+    "static/js/main.da472816.chunk.js"
   ]
 }
