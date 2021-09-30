@@ -20,13 +20,13 @@ class About extends Component {
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
+            {/* <div className="three columns"> */}
               {/* <img
                 className="profile-pic"
                 src={profilepic}
                 alt="Nordic Giant Profile Pic"
               /> */}
-            </div>
+            {/* </div> */}
             <div className="nine columns main-col">
               <h2>Problem Statements</h2>
 
@@ -90,6 +90,13 @@ class About extends Component {
                   </p>
                 </div> */}
               </div>
+            </div>
+            <div className="three columns">
+              {/* <img
+                className="profile-pic"
+                src={profilepic}
+                alt="Nordic Giant Profile Pic"
+              /> */}
             </div>
         </Fade>
       </section>
