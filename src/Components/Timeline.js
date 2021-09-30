@@ -19,7 +19,7 @@ class Testimonials extends Component {
     <h3 className="vertical-timeline-element-title">Contest Begins</h3>
     <h4 className="vertical-timeline-element-subtitle">1st October</h4>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
     iconStyle={{ background: "#000524", color: '#fff' }}
     icon={<SiProbot />}
@@ -34,14 +34,14 @@ class Testimonials extends Component {
   >
     <h3 className="vertical-timeline-element-title">Mid-Evaluation Submission Feedback</h3>
     <h4 className="vertical-timeline-element-subtitle">16th October</h4>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     iconStyle={{ background: "#000524", color: '#fff' }}
     icon={<SiProbot />}
   >
-    <h3 className="vertical-timeline-element-title">Final Submission</h3>
-    <h4 className="vertical-timeline-element-subtitle">23rd October</h4>
+    <h3 className="vertical-timeline-element-title">Final Submission Link</h3>
+    <h4 className="vertical-timeline-element-subtitle">20th October</h4>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
