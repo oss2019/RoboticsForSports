@@ -14,11 +14,11 @@ class Footer extends Component {
         <div className="row">
           <Fade bottom>
             <div className="twelve columns">
-              <div className="social-links" style={{display : 'flex', justifyContent: 'center'}}>
+              {/* <div className="social-links" style={{display : 'flex', justifyContent: 'center'}}>
                 <img src={IITDh} style={{ height: '150px' , width: '150px', margin: '2rem'}} alt = "logo"/>
                 <img src={RoboticsClub} style={{ height: '150px' , width: '150px', margin: '2rem'}} alt = "logo"/>
                 <img src={TechCouncil} style={{ height: '150px' , width: '150px', margin: '2rem'}} alt = "logo"/>
-              </div>
+              </div> */}
 
               <ul className="copyright">
                 <li style={{color : 'white'}}>&copy; Copyright 2021 OSS</li>
