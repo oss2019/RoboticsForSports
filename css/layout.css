@@ -197,7 +197,8 @@ ul#nav li a:active { background-color: transparent !important; }
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
-   padding: 1rem 17rem;
+   /* padding: 1rem 17rem; */
+   text-align: center;
 }
 #about p {
    line-height: 30px;
@@ -211,11 +212,15 @@ ul#nav li a:active { background-color: transparent !important; }
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
-   width: 58.33333%;
+   /* width: 58.33333%; */
    padding-top: 6px;
    /* display: flex; */
 }
-#about .main-col { padding-right: 5%; }
+#about .main-col { 
+   padding-right: 5%;
+   margin: auto;
+   width: unset;
+ }
 #about .download .button {
    margin-top: 6px;
    background: #444;
