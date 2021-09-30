@@ -234,7 +234,16 @@ ul#nav li a:active { background-color: transparent !important; }
    font-size: 20px;
 }
 
+@media only screen and (max-width: 900px) {
 
+   #about .row .row {
+      width: auto;
+      max-width: none;
+      margin: 0 -20px;
+      display: grid;
+  }
+
+}
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
