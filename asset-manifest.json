@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/RoboticsForSports/static/css/main.bab0b925.chunk.css",
-    "main.js": "/RoboticsForSports/static/js/main.d97ddfb6.chunk.js",
-    "main.js.map": "/RoboticsForSports/static/js/main.d97ddfb6.chunk.js.map",
-    "runtime-main.js": "/RoboticsForSports/static/js/runtime-main.e1c72e6c.js",
-    "runtime-main.js.map": "/RoboticsForSports/static/js/runtime-main.e1c72e6c.js.map",
+    "main.js": "/RoboticsForSports/static/js/main.f2fc4ce0.chunk.js",
+    "main.js.map": "/RoboticsForSports/static/js/main.f2fc4ce0.chunk.js.map",
+    "runtime-main.js": "/RoboticsForSports/static/js/runtime-main.6f249424.js",
+    "runtime-main.js.map": "/RoboticsForSports/static/js/runtime-main.6f249424.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/RoboticsForSports/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.5d5d45fb.chunk.js": "/RoboticsForSports/static/js/2.5d5d45fb.chunk.js",
-    "static/js/2.5d5d45fb.chunk.js.map": "/RoboticsForSports/static/js/2.5d5d45fb.chunk.js.map",
-    "static/js/3.37192441.chunk.js": "/RoboticsForSports/static/js/3.37192441.chunk.js",
-    "static/js/3.37192441.chunk.js.map": "/RoboticsForSports/static/js/3.37192441.chunk.js.map",
+    "static/js/2.ef9cb1fa.chunk.js": "/RoboticsForSports/static/js/2.ef9cb1fa.chunk.js",
+    "static/js/2.ef9cb1fa.chunk.js.map": "/RoboticsForSports/static/js/2.ef9cb1fa.chunk.js.map",
+    "static/js/3.7f5337a8.chunk.js": "/RoboticsForSports/static/js/3.7f5337a8.chunk.js",
+    "static/js/3.7f5337a8.chunk.js.map": "/RoboticsForSports/static/js/3.7f5337a8.chunk.js.map",
     "index.html": "/RoboticsForSports/index.html",
     "static/css/2.2aa38b9c.chunk.css.map": "/RoboticsForSports/static/css/2.2aa38b9c.chunk.css.map",
     "static/css/main.bab0b925.chunk.css.map": "/RoboticsForSports/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.5d5d45fb.chunk.js.LICENSE.txt": "/RoboticsForSports/static/js/2.5d5d45fb.chunk.js.LICENSE.txt",
+    "static/js/2.ef9cb1fa.chunk.js.LICENSE.txt": "/RoboticsForSports/static/js/2.ef9cb1fa.chunk.js.LICENSE.txt",
     "static/media/Aasim.a51b1511.jpeg": "/RoboticsForSports/static/media/Aasim.a51b1511.jpeg",
     "static/media/Atul.8925afca.jpeg": "/RoboticsForSports/static/media/Atul.8925afca.jpeg",
     "static/media/Harrithha1.7f5519d5.png": "/RoboticsForSports/static/media/Harrithha1.7f5519d5.png",
@@ -27,10 +27,10 @@
     "static/media/Yogesh.7fddbe3a.jpeg": "/RoboticsForSports/static/media/Yogesh.7fddbe3a.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1c72e6c.js",
+    "static/js/runtime-main.6f249424.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.5d5d45fb.chunk.js",
+    "static/js/2.ef9cb1fa.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.d97ddfb6.chunk.js"
+    "static/js/main.f2fc4ce0.chunk.js"
   ]
 }
