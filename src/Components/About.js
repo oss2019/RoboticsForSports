@@ -50,7 +50,7 @@ class About extends Component {
                 </div> */}
                 <div className="columns download">
                   <p>
-                    <a href="#" className="button">
+                    <a href="https://drive.google.com/file/d/1c0KIlFdE8UHORLIyzmRVtTOV3URz3RDr/view?usp=sharing" target="_blank" className="button">
                       <i className="fa fa-download"></i>Problem Statement-1
                     </a>
                   </p>
@@ -62,8 +62,8 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="#" className="button">
-                      <i className="fa fa-download"></i>Problem Statement-1
+                    <a href="https://drive.google.com/file/d/1qDhzOJv14NA07_sQyb80-3WHYa7XomEM/view?usp=sharing" target="_blank" className="button">
+                      <i className="fa fa-download"></i>Problem Statement-2
                     </a>
                   </p>
                   {/* <p>
