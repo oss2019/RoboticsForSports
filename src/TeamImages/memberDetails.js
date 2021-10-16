@@ -7,7 +7,7 @@ import Tabish from './Tabish.jpeg';
 import Yogesh from './Yogesh.jpeg';
 import Harrithha1 from './Harrithha1.png';
 
-export const teamMembers1 = [
+export const teamMembers = [
  {
      url : Atul,
      name : 'Atul Singh'
@@ -23,10 +23,7 @@ export const teamMembers1 = [
 {
     url : Yogesh,
     name : 'Yogesh Dhyani'
-}
-];
-
-export const teamMembers2 = [
+},
 {
    url : Aasim,
    name : 'Aasim Ali Khan'
