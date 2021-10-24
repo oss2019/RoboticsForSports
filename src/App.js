@@ -8,7 +8,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Timeline from "./Components/Timeline";
 import Team from "./Components/Team";
-import Team_test from "./Components/Team_test";
+// import Team_test from "./Components/Team_test";
 // import CountDow from "./Components/CountDow";
 
 class App extends Component {
@@ -51,7 +51,7 @@ class App extends Component {
         <About data={this.state.resumeData.main} /> 
         <Timeline data={this.state.resumeData.main}/>
         <Team data={this.state.resumeData.main}/>
-        <Team_test/>
+        {/* <Team_test/> */}
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
