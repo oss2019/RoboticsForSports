@@ -1,0 +1,2 @@
+@media screen and (max-width:580px){.elements{width:100%;margin-bottom:20px;text-align:center}}@media screen and (min-width:580px){.element_container{-webkit-flex-direction:row;flex-direction:row;-webkit-justify-content:space-evenly;justify-content:space-evenly;-webkit-flex:0 0 30%;flex:0 0 30%;flex-wrap:wrap}.element_container,.elements{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap}.elements{-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:center;justify-content:center;flex-wrap:wrap}}
+/*# sourceMappingURL=main.2ada2cf5.chunk.css.map */
