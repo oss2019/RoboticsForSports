@@ -49,7 +49,7 @@ class Testimonials extends Component {
     icon={<SiProbot />}
   >
     <h3 className="vertical-timeline-element-title">Results</h3>
-    <h4 className="vertical-timeline-element-subtitle">27th October</h4>
+    <h4 className="vertical-timeline-element-subtitle">7th November</h4>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
